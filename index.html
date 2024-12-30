@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Task-4 VU22CSEN0101952</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;} .row{display:flex;width:100%;} .column{flex:1;padding:10px;border:1px solid #ccc;} #logo{height:30vh;background:#f4f4f4;} #header{height:10vh;background:#ddd;} #menu{height:10vh;display:flex;justify-content:space-around;align-items:center;background:#eee;} #content{display:flex;height:75vh;} #services{flex:1;background:#fafafa;border-right:1px solid #ccc;} #description{flex:4;background:#fff;}
+</style>
+</head>
+<body>
+<div id="logo">Logo</div>
+<div id="header">Header</div>
+<div id="menu"><div>Home</div><div>Login</div><div>Registration</div><div>Catalogue</div><div>Cart</div><div>Contact</div></div>
+<div id="content"><div id="services">Services</div><div id="description">Description</div></div>
+<script>
+function loadContentInDescription(url){document.getElementById('description').innerHTML='<iframe src="'+url+'" style="width:100%;height:100%;border:none;"></iframe>';}
+</script>
+</body>
+</html>
